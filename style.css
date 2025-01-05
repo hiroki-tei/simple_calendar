@@ -1,0 +1,33 @@
+body {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+.calendar-date:hover {
+    background-color: bisque;
+}
+
+.calendar-date.base-date {
+    border: 2px solid red;
+}
+
+.calendar-date.start-date{
+    background-color: rgb(248, 169, 50);
+}
+
+.calendar-date.end-date{
+    background-color: rgb(91, 157, 223);
+}
+
+#stay-period-info {
+    font-size: 0.75em;
+    line-height: 0.75em;
+    color: rgb(27, 116, 206);
+}
+
+#error-message {
+    color: red;
+    font-size: 1em;
+}
